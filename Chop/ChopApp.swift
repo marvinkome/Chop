@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import SwiftData
 
 @main
 struct ChopApp: App {
+    @State private var model = AppModel()
+
     var body: some Scene {
         WindowGroup {
             ContentView()
         }
+        .environment(model)
     }
 }

@@ -11,6 +11,11 @@
 		5060FCDE2B90D0C500965BB2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060FCDD2B90D0C500965BB2 /* ContentView.swift */; };
 		5060FCE02B90D0C700965BB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5060FCDF2B90D0C700965BB2 /* Assets.xcassets */; };
 		5060FCE32B90D0C700965BB2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5060FCE22B90D0C700965BB2 /* Preview Assets.xcassets */; };
+		5060FCEA2B90F49B00965BB2 /* Ingredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060FCE92B90F49B00965BB2 /* Ingredients.swift */; };
+		5060FCED2B90F4F700965BB2 /* IngredientDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060FCEC2B90F4F700965BB2 /* IngredientDetails.swift */; };
+		5060FCEF2B90F51700965BB2 /* NewIngredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060FCEE2B90F51700965BB2 /* NewIngredient.swift */; };
+		5060FCF22B90F56F00965BB2 /* Ingredient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060FCF12B90F56F00965BB2 /* Ingredient.swift */; };
+		5060FCF42B911B2F00965BB2 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5060FCF32B911B2F00965BB2 /* Model.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		5060FCDD2B90D0C500965BB2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5060FCDF2B90D0C700965BB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5060FCE22B90D0C700965BB2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5060FCE92B90F49B00965BB2 /* Ingredients.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredients.swift; sourceTree = "<group>"; };
+		5060FCEC2B90F4F700965BB2 /* IngredientDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientDetails.swift; sourceTree = "<group>"; };
+		5060FCEE2B90F51700965BB2 /* NewIngredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIngredient.swift; sourceTree = "<group>"; };
+		5060FCF12B90F56F00965BB2 /* Ingredient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ingredient.swift; sourceTree = "<group>"; };
+		5060FCF32B911B2F00965BB2 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,8 @@
 		5060FCDA2B90D0C500965BB2 /* Chop */ = {
 			isa = PBXGroup;
 			children = (
+				5060FCF02B90F56500965BB2 /* Models */,
+				5060FCEB2B90F4A600965BB2 /* Views */,
 				5060FCDB2B90D0C500965BB2 /* ChopApp.swift */,
 				5060FCDD2B90D0C500965BB2 /* ContentView.swift */,
 				5060FCDF2B90D0C700965BB2 /* Assets.xcassets */,
@@ -65,6 +77,25 @@
 				5060FCE22B90D0C700965BB2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5060FCEB2B90F4A600965BB2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				5060FCE92B90F49B00965BB2 /* Ingredients.swift */,
+				5060FCEC2B90F4F700965BB2 /* IngredientDetails.swift */,
+				5060FCEE2B90F51700965BB2 /* NewIngredient.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		5060FCF02B90F56500965BB2 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				5060FCF12B90F56F00965BB2 /* Ingredient.swift */,
+				5060FCF32B911B2F00965BB2 /* Model.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +168,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5060FCF42B911B2F00965BB2 /* Model.swift in Sources */,
 				5060FCDE2B90D0C500965BB2 /* ContentView.swift in Sources */,
+				5060FCED2B90F4F700965BB2 /* IngredientDetails.swift in Sources */,
+				5060FCF22B90F56F00965BB2 /* Ingredient.swift in Sources */,
+				5060FCEA2B90F49B00965BB2 /* Ingredients.swift in Sources */,
+				5060FCEF2B90F51700965BB2 /* NewIngredient.swift in Sources */,
 				5060FCDC2B90D0C500965BB2 /* ChopApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
